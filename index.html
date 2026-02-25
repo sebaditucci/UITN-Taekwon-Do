@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web de la ecuela de Taekwon-Do UITN">
+  <meta name="keywords" content="UITN, Taekwon-Do, Escuela, ITF, Hurlingham, Villa Tesei, Buenos Aires">
+  <meta name="author" content="Sebastián Di Tucci">
+  <title>Sitio Web UITN</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src = "https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</head>
+<body>
+    <nav>
+      <div class = "nav-section">
+        <a class = "index" href = "#header">Inicio</a>
+        <a class = "index" href = "#sobreNosotros">Nosotros</p>
+        <a class = "index" href = "#ubicacion">Ubicación</p>
+        <a class = "index" href = "#contacto">Contacto</p>
+      </div>
+      <div class = "nav-section">
+        <a href= "https://www.instagram.com/taekwondoitfuitn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target=" _blank" rel="noreferrer"><span class = "iconify" data-icon = "mdi:instagram" data-width = "32" data-height = "32"></span></a>
+        <a href= "https://www.facebook.com/herve.platoni.90" target=" _blank" rel="noreferrer"><span class = "iconify" data-icon = "mdi:facebook" data-width = "32" data-height = "32"></span></a>
+      </div>
+    </nav>
+  <header id = "header">
+    <div>
+      <h2 id = "header-title">ESCUELA DE TAEKWON-DO ITF</h2>
+      <img src="./images/logo_header.png" alt = "logo de uitn" title = "logo" loading = "lazy"/>
+      <h1>UNION INSTRUCTORES TAEKWON-DO NACIONAL</h1>
+      <span>¡Clases para todas las edades!</span>
+    </div>
+  </header>
+  <main>
+    <section class = "sectionCard" id = "sobreNosotros">
+      <div class = "section_container">
+        <h2>Sobre Nosotros</h2>
+        <p>En UITN formamos personas a través del Taekwon-Do ITF, combinando técnica, disciplina y valores. Creemos que esta disciplina es una herramienta de crecimiento físico y mental que fortalece el carácter y la confianza.</p>
+        <p>Nuestra misión es enseñar a nuestros alumnos con cariño y transmitirles los mejores valores, fomentando el respeto, la perseverancia y el compañerismo dentro y fuera del dojang.</p>
+        <p>En UITN no solo entrenamos atletas, formamos personas.</p>
+      </div>
+      <img src = "./images/imagen_sobreNosotros.webp" alt = "imagen del equipo" title = "Nosotros" loading = "lazy"/>
+    </section>
+    <section id = "galeria">
+      <h2>Creciendo Juntos</h2>
+      <div class = "section-grid">
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_1.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_2.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_3.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_4.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_5.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_6.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_8.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_9.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_10.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+        <div class = "card">
+          <img src = "./images/imagen_carrousel_12.webp" title = "imagen del equipo" alt = "imagen del equipo" loading = "lazy"/>
+        </div>
+      </div>
+    </section>
+    <form action="https://formspree.io/f/xzdavozw" method="POST" id ="contacto">
+      <h2>Contactenos</h2>
+      <div>
+        <label>
+          Nombre:
+          <input type = "text" name = "nombre" required>
+        </label>
+        <label>
+          Apellido:
+          <input type = "text" name = "apellido" required>
+        </label>
+      </div>
+      <label>
+        Email:
+        <input type="email" name="email" required/>
+      </label>
+      <label>
+        Mensaje:
+        <textarea name="message" required></textarea>
+      </label>
+      <button type="submit">Enviar</button>
+    </form>
+    <section id = "ubicacion">
+      <div class = "section_container">
+        <h2>Ubicación</h2>
+        <p>Av. Gdor. Vergara 2342, Galería Tesei - 1er Piso (Platoni Estudio)</p>
+        <p>Lunes y miercoles 19:30 a 21:00 y Sábados 14:00 a 16:00</p>
+        <p>¡Te esperamos!</p>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5686784761324!2d-58.637074324642676!3d-34.615066772950264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb97bca9840f5%3A0x644c46cb3072afc4!2sPLATONI%20ESTUDIO!5e0!3m2!1ses!2sar!4v1771467286841!5m2!1ses!2sar" width="50%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 Union Instructores Taekwon-Do Nacional. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
