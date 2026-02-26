@@ -91,6 +91,7 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     height: 100vh;
+    position: relative;
 }
 
 header div img{
@@ -107,7 +108,7 @@ header div {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 90%;
+    height: 95%;
     width: 100%;
     color: var(--color-secundario);
 }
@@ -129,7 +130,7 @@ h2 {
     font-family: "montserrat-bold";
 }
 
-span{
+.subtitulo{
     font-style: italic;
     font-size: 1.5rem;
 }
@@ -158,6 +159,41 @@ section {
     padding: 50px;
     margin-top: 70px;
     background-color: var(--color-principal-claro);
+}
+
+.promo {
+    overflow: hidden;
+    width: 100%;
+    font-family: "montserrat-bold";
+    background-color: black;
+    color: var(--color-secundario);
+    height: 55px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.promo-track {
+    display: flex;
+    animation: scroll 8s linear infinite;
+    width: fit-content;
+    flex-direction: row;
+}
+
+.promo-track span {
+    min-width: 100vw;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-principal-claro);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
 }
 
 .section-grid {
@@ -298,6 +334,10 @@ footer p {
         width: 5vw;
     }
 
+    .promo {
+        height: 40px;
+    }
+
     h1 {
         font-size: 1.3rem;
     }
@@ -316,6 +356,11 @@ footer p {
     .section_container {
         padding: 15px;
         text-align: center;
+    }
+
+    .section-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
 
     section img {
