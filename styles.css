@@ -472,6 +472,10 @@ footer p {
         height: 30%;
     }
 
+    .details-content {
+        width: 90%;
+    }
+
     form {
         width: 90%;
     }
