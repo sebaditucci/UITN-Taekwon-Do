@@ -491,7 +491,8 @@ details[open] summary svg {
 
 .details-content {
     padding: 0 40px 40px;
-    text-align: justify;
+    text-align: left;
+    line-height: 1.8;
     color: var(--text-muted);
     animation: fadeIn 0.5s ease;
 }
