@@ -182,6 +182,7 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     color: var(--accent-primary);
+    padding: 0 5px;
 }
 
 .subtitulo-header {
